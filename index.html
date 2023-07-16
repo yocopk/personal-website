@@ -923,7 +923,6 @@
         </div>
 
         <form
-          onsubmit="sendEmail(); reset(); return false;"
           class="contact__form grid"
         >
           <div class="contact__inputs grid">
@@ -952,7 +951,7 @@
           </div>
 
           <div>
-            <a type="submit" href="#" class="button button--flex">
+            <a href="#" class="button button--flex" onclick="sendEmail(); reset(); return false;">
               Send Message
               <i class="uil uil-message button__icon"></i>
             </a>
