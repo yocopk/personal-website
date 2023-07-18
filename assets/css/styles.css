@@ -189,7 +189,11 @@ img {
   align-items: center;
 }
 
-
+.header__img{
+  display: flex;
+  justify-content: left;
+  width: 30px;
+}
 
 .nav__logo,
 .nav__toggle{
