@@ -925,7 +925,7 @@
         </div>
 
         <form
-          class="contact__form grid" action="https://formsubmit.co/andrea.marchese17@gmail.com" method="POST"
+          class="contact__form grid" id="GFG" action="https://formsubmit.co/andrea.marchese17@gmail.com" method="POST"
         >
           <div class="contact__inputs grid">
             <div class="contact__content">
@@ -953,7 +953,7 @@
           </div>
 
           <div>
-            <a type="submit" href="#" class="button button--flex">
+            <a href="#" class="button button--flex" onclick="myFunction()">
               Send Message
               <i class="uil uil-message button__icon"></i>
             </a>
@@ -1016,6 +1016,11 @@
     <!--======================= MAIN JS ============================-->
     <script src="assets/js/main.js"></script>
     <!--======================= EMAIL CONTACT ============================-->
+    <script>
+            function myFunction() {
+                document.getElementById("GFG").submit();
+            }
+        </script>
 <!--     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
       function sendEmail() {
