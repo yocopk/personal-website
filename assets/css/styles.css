@@ -187,6 +187,13 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  justify-content: flex-start;
+}
+
+.nav__logo{
+  display: flex;
+  margin-left: 1rem;
+  margin-right: auto;
 }
 
 .header__img{
