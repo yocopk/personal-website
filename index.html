@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/img/logo-sito-andrea.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo-sito-andrea.ico"
+      type="image/x-icon"
+    />
     <!--======================= UNICONS ============================-->
     <link
       rel="stylesheet"
@@ -25,7 +29,7 @@
     <!--======================= HEADER ============================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <img class="header__img" src="assets/img/logo sito andrea.png" alt="">
+        <img class="header__img" src="assets/img/logo sito andrea.png" alt="" />
         <a href="#" class="nav__logo">Andrea .dev</a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
@@ -96,7 +100,11 @@
               <i class="uil uil-facebook-f"></i>
             </a>
 
-            <a href="https://www.linkedin.com/in/andrea-marchese-18a488285" class="home__social-icon" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/andrea-marchese-18a488285"
+              class="home__social-icon"
+              target="_blank"
+            >
               <i class="uil uil-linkedin-alt"></i>
             </a>
           </div>
@@ -755,6 +763,24 @@
               </a>
             </div>
           </div>
+          <!--======================= PORTFOLIO 4 ============================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/panificio.jpg" alt="" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Panificio Barone Scala Website</h3>
+              <p class="portfolio__description">
+                Landing page using HTML, CSS and JS.
+              </p>
+              <a
+                href="https://yocopk.github.io/panificio-baronescala/"
+                class="button button--flex button--small portfolio__button"
+              >
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
         </div>
 
         <div class="swiper-button-next">
@@ -925,21 +951,41 @@
         </div>
 
         <form
-          class="contact__form grid" id="GFG" action="https://formsubmit.co/d2d7b0397beb40431f634a167e9587f8" method="POST"
+          class="contact__form grid"
+          id="GFG"
+          action="https://formsubmit.co/d2d7b0397beb40431f634a167e9587f8"
+          method="POST"
         >
           <div class="contact__inputs grid">
             <div class="contact__content">
               <label for="" class="contact__label">Name</label>
-              <input type="text" class="contact__input" name="name" id="name" required />
+              <input
+                type="text"
+                class="contact__input"
+                name="name"
+                id="name"
+                required
+              />
             </div>
             <div class="contact__content">
               <label for="" class="contact__label">Email</label>
-              <input type="email" class="contact__input" name="email" id="email" required />
+              <input
+                type="email"
+                class="contact__input"
+                name="email"
+                id="email"
+                required
+              />
             </div>
           </div>
           <div class="contact__content">
             <label for="" class="contact__label">Project</label>
-            <input type="text" class="contact__input" name="project" id="project" />
+            <input
+              type="text"
+              class="contact__input"
+              name="project"
+              id="project"
+            />
           </div>
           <div class="contact__content">
             <label for="" class="contact__label">Message</label>
@@ -1005,7 +1051,7 @@
               target="_blank"
               class="footer__social"
             >
-            <i class="uil uil-linkedin-alt"></i>
+              <i class="uil uil-linkedin-alt"></i>
             </a>
           </div>
         </div>
@@ -1025,11 +1071,11 @@
     <script src="assets/js/main.js"></script>
     <!--======================= EMAIL CONTACT ============================-->
     <script>
-            function myFunction() {
-                document.getElementById("GFG").submit();
-            }
-        </script>
-<!--     <script src="https://smtpjs.com/v3/smtp.js"></script>
+      function myFunction() {
+        document.getElementById("GFG").submit();
+      }
+    </script>
+    <!--     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
       function sendEmail() {
         Email.send({
